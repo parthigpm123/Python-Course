@@ -49,3 +49,15 @@ print(__package__)
 
 print(__builtins__)
 '''
+
+delivery_partner="swiggy"
+
+def hotel():
+      item = 'pizza'
+      
+      def order():
+            quantity =2
+            print(f"ordering {quantity} {item} using {delivery_partner}")
+      order()
+   
+hotel()    
