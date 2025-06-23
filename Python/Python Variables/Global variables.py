@@ -14,4 +14,15 @@ def myfunc():
       print(x)
 myfunc()
   
-print(x)          
+print(x)  
+
+def myvar():
+      x = "python is awesome"
+      
+      def cart():
+            print(x)
+            
+      cart()
+ 
+myvar()           
+        
