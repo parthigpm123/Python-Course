@@ -19,3 +19,11 @@ def hotel():
       order()
    
 hotel()           
+
+
+
+
+a=1000
+b="dollars"
+c= f'my car price is {a} {b}'
+print(c)
