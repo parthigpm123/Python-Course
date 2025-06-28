@@ -20,4 +20,3 @@ def hotel():
    
 hotel()           
 
-j
