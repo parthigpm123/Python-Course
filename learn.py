@@ -7,4 +7,6 @@ def myvar():
 myvar()
 
 print(x)  
-print(y)    
+print(y)  
+
+print ('HELLO')  
