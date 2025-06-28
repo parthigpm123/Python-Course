@@ -1,5 +1,5 @@
 # User input and type casting
-
+'''
 num=input()
 print(num + " " + " is awesome")                                    
 
@@ -24,8 +24,6 @@ user=float(input())
 print(type(user))
 
 
-
-'''
 a = ("********************")
 b = ("********************")
 print(a+ " PYTHON IS AWESOME " +b)
@@ -38,7 +36,20 @@ print("""
        PYTHON IS AWESOME
       ********************
       ********************""")
+
+
+
+name=(input())
+
+age=(input())
+
+print("my name is:",name)
+print("my age is:",age)
 '''
+name =input()
+age=input()
+address= input()
 
-
-
+print("my name is:" , name)
+print("my age is:" , age)
+print("my address is:" ,address)
