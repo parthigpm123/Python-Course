@@ -1,10 +1,10 @@
-print('hello world')
+def myvar():
+      global x
+      x="python is awesome"
+      global y
+      y="python is great"
+      print()
+myvar()
 
-x=('python is  awesome')
-print(x)
-
-x='''hello
-python is awesome'''
-
-x,y,z='python' , 'java', 'c++'
-print(x,y,z)
+print(x)  
+print(y)    
