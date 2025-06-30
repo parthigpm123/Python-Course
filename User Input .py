@@ -45,7 +45,7 @@ age=(input())
 
 print("my name is:",name)
 print("my age is:",age)
-'''
+
 name =input()
 age=input()
 address= input()
@@ -53,3 +53,11 @@ address= input()
 print("my name is:" , name)
 print("my age is:" , age)
 print("my address is:" ,address)
+'''
+
+base =int(input("base=====>   "))
+exponent = int(input("exponent======> "))
+result = (base ** exponent)
+print("Result======>  ",result)
+
+
