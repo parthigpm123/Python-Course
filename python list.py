@@ -1,5 +1,5 @@
-"""list store value of int,
-bool value ,string value  we  can make duplicate, changeable,
+#list store value of int,
+#bool value ,string value  we  can make duplicate, changeable,
 
 # Built-in functions
 
@@ -90,7 +90,7 @@ print(ls3.index(5))
 #_______________#
 
 #min and max elements find out
-"""
+
 ls4=[1,10,3,4]
 
 print(min(ls4))
