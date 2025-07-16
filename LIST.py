@@ -1,3 +1,4 @@
+'''
 #list store value of int,
 #bool value ,string value  we  can make duplicate, changeable,
 
@@ -124,7 +125,15 @@ ls1=[[1,2,2],[4,5,6,7]]
 print(ls1[1])
 
 print(ls1[1][0])
+'''
 
+ #sort function
+lst=["prthiban", "apple", "banana"]
+lst2 =[1,2,3,4,56,2,3,34,5]
+lst2.reverse()
+
+ls2
+print(lst2)
 
 
 

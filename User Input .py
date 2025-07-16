@@ -60,4 +60,8 @@ exponent = int(input("exponent======> "))
 result = (base ** exponent)
 print("Result======>  ",result)
 
+print("Enter your name:")
+name = input()
+print(f"Hello {name}")
+
 
