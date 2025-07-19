@@ -15,7 +15,7 @@ Indented Block of Code: The statements indented below the for loop header are ex
 Examples:
 1. Iterating over a list:
 Python
-'''
+
 fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print(fruit)
@@ -35,7 +35,7 @@ for i in range(5):  # Iterates from 0 to 4
 my_list = ["a", "b", "c"]
 for index, value in enumerate(my_list):
     print(f"Index: {index}, Value: {value}")
-'''
+
 Control Flow Statements within for loops:
 break: Exits the loop entirely.
 continue: Skips the current iteration and moves to the next.
@@ -47,7 +47,68 @@ else (with for loop): The else block is executed only if the loop completes with
 for me in range(5):
       print("troll geak ")
       
-'''   
 
-w   
+ #String Loop 
+      
+for i in "apple":
+    print(i)
+    
+ # Int Loop in Range function
+for x in range(6):
+     print(x)   
+     
+     
+# range function  with start and end     
+for y in range(1,7):
+    print(y)       
+
+# 6 Table in range function
+
+for z in range(1,11):
+    print("7x",z,"=",7*z)
+    
+    
+    
+# user input in for loop    
+a= int(input("Enter input no "))
+b= int(input("Enter input no "))
+
+for c in range(a,b):
+    print(c)
+
+
+#even numbersin for loop
+
+for m in range(1,11):
+    if m%2==0:
+     print(m)
+
+
+
+# Nested Loops
+for i in range(1,3):
+    print("week:",i)
+    for j in range(1,4):
+        print("day:",j)   
+      '''
+ 
+for i in range(1,2):
+    print("*",i)
+    for j in range(1,2):
+        print("**",j)   
+    for k in range(1,2):
+        print("***",k)
+    for l in range(1,2):
+        print("****",l)
+        
+        
+for i in range(1,2):
+    print("*")
+    for j in range(1,2):
+        print("**")   
+    for k in range(1,2):
+        print("***")
+    for l in range(1,2):
+        print("****")
+         
       
