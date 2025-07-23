@@ -34,7 +34,7 @@ set1 ={
 
 x=set1.get('name')
 print(x)
-'''
+
 
 set1 = {
       "name": "Name========> parthiban "
@@ -42,3 +42,31 @@ set1 = {
       }
 x = set1.get("name")
 print(x)
+
+
+username = "parthiban"
+password = 12345  
+
+uname=input("Username : ")
+pwd = int(input("password : "))
+
+def myfunc():     
+      print(username==uname and password==pwd)
+      
+myfunc()
+'''
+
+username = "parthiban"
+password = 12345  
+
+uname=str(input("Username : "))
+pwd = int(input("password : "))
+
+def validate():
+      if(username==uname and password==pwd):
+       print("both are same")
+      else:
+       print("not true")
+validate()
+             
+
