@@ -54,7 +54,7 @@ def myfunc():
       print(username==uname and password==pwd)
       
 myfunc()
-'''
+
 
 username = "parthiban"
 password = 12345  
@@ -68,5 +68,92 @@ def validate():
       else:
        print("not true")
 validate()
-             
+            
 
+
+class ooty:
+      def botanical(self):
+          print("for research")
+      def boathouse(self):
+          print("let's party")
+parthiban=ooty()
+vijay=ooty()
+parthiban.botanical()
+vijay.boathouse()
+
+class calculator:
+            def input(self,a,b):
+                  print( a + b)
+            def sub(self,a,b):
+                  return a -b
+            def mul(self,a,b):
+                  return a*b
+            def div(self,a,b):
+                  return a /b
+
+
+class student:
+    def __init__(self):
+            self.name = "parthiban"
+            self.age = "24"
+            a = self
+            print(a)
+s1=student()
+
+
+class goa:
+      name = " "
+      drink = ""
+      def party(self):
+            print("let's party.........")
+      def beach(self):
+            print("lets enjoy beach...")
+            
+ramesh = goa()  
+suresh =goa()          
+            
+            
+ramesh.party()
+suresh.beach()      
+            
+            
+            
+                   
+
+
+
+
+ramesh.name = "ramesh" 
+suresh.name = "suresh"
+
+ramesh.drink = "wine"
+
+suresh.drink = "beer"
+ 
+
+print(ramesh.name) 
+print("drinks:",ramesh.drink)               
+print(suresh.name)
+
+
+print("drinks:",suresh.drink) 
+
+         
+                        
+
+
+
+lst =["python","hello","world","fantastic","super"]
+
+itr =iter(lst)
+print(itr)
+
+'''
+
+def add(a,b):
+      print(a + b)
+         
+def greeting(name):
+      print("hello" + name)
+                 
+       
