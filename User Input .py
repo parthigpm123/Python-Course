@@ -53,7 +53,7 @@ address= input()
 print("my name is:" , name)
 print("my age is:" , age)
 print("my address is:" ,address)
-'''
+
 
 base =int(input("base=====>   "))
 exponent = int(input("exponent======> "))
@@ -63,5 +63,10 @@ print("Result======>  ",result)
 print("Enter your name:")
 name = input()
 print(f"Hello {name}")
+
+'''
+print("Enter your name:")
+name = input()
+print("Hello ",name)
 
 
