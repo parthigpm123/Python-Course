@@ -148,12 +148,38 @@ lst =["python","hello","world","fantastic","super"]
 itr =iter(lst)
 print(itr)
 
-'''
+
 
 def add(a,b):
       print(a + b)
+      
+      
          
 def greeting(name):
       print("hello" + name)
-                 
-       
+
+
+
+try:
+    a = int(input("enter no"))
+    b = int(input("enter no"))
+    
+    print(a-b)
+except: 
+    print("Error Occurred")
+else:
+      print("result successful")    
+      
+      '''
+      
+try:
+    age = int(input("Enter your age: "))
+    
+    if age < 18:
+        raise ValueError("Age cannot be negative")
+    
+    print("Your age is:", age)
+
+except ValueError as e:
+    print("Error:", e)
+      

@@ -20,3 +20,47 @@ Makes projects more portable and reproducible
 Keeps your system Python installation clean
 Allows testing with different Python versions
 '''
+
+'''
+there is a two type Tools 
+
+1 venv
+
+2 virtualenv
+
+
+1 venv inbuilt  tools come while python installed 
+=> create same version only
+
+=>not create other python version
+C:\Users\Your Name> python -m venv myfirstproject
+
+then activate batch file
+
+then deactivate 
+
+and delete folder
+
+where python
+python version
+pip install numpy
+pip list
+pip
+
+2
+you need to install pip install virtualenv
+after you should add path otherwise show error
+
+ {where vitualenv} check path
+ 
+ you need to install which version python you want
+ 
+ open cmd
+ 
+ type= virtualenv [where you create virtual env folder path] --python=[python installed folder path]
+ 
+ then activate batch file windows
+ deactivate
+ delete
+ 
+'''
