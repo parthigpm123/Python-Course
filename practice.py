@@ -170,7 +170,6 @@ except:
 else:
       print("result successful")    
       
-      '''
       
 try:
     age = int(input("Enter your age: "))
@@ -182,4 +181,17 @@ try:
 
 except ValueError as e:
     print("Error:", e)
-      
+ '''
+ 
+import time
+x =time.localtime()
+
+print("year", x.tm_year)
+print("month", x.tm_mon)
+print("day", x.tm_mday)
+print("hour", x.tm_hour)
+print("minute", x.tm_min)
+print("second", x.tm_sec)
+
+
+     
