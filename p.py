@@ -1,1 +1,4 @@
-print("hello")
+a = 10
+b=110
+
+print(a+b)
