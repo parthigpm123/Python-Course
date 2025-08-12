@@ -1,6 +1,4 @@
-a = 10
-b=110
+import datetime
 
-print(a+b)
-
-print ("hello")
+x=datetime.datetime.time().now()
+print(x)
