@@ -1,4 +1,4 @@
 import datetime
-x = datetime.datetime.now().time()
-
-print(x)
+x = datetime.date.today()
+y=datetime.datetime.now()
+print(x.strftime('%a-%b-%y'),y.strftime('%I:%M:%S %p'))

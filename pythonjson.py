@@ -3,7 +3,7 @@ JSON - javascript object notation (key value pair)
 
 => A light weight format for store and exchange data
 
-=> it's text format bot human and computer readable easily
+=> it's text format both human and computer readable easily
 
 =>Widely Using web development and other application
 

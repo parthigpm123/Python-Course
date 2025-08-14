@@ -1,4 +1,12 @@
-import datetime
+import datetime as d
 
-x=datetime.datetime.time().now()
+x=d.datetime.now().time()
 print(x)
+
+y=d.date.today()
+
+print(y)
+
+print("day:  ",y.day)
+print("month:",y.month)
+print("year: ",y.year)
