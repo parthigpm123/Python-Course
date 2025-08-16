@@ -10,3 +10,8 @@ print(y)
 print("day:  ",y.day)
 print("month:",y.month)
 print("year: ",y.year)
+
+a= 20
+b=20
+a-=b      #====>syntax
+print(a)

@@ -5,7 +5,7 @@
 a= 20
 b=20
 a+=b      #====>syntax
-print(a)
+print("addition assignment =",a)
 
 #subtraction assignment operators (-=)
 
@@ -13,36 +13,36 @@ print(a)
 a= 20
 b=20
 a-=b      #====>syntax
-print(a)
+print("subtraction assign =",a)
 
 # multiplication assignment operators (*=)
 a = 10
 b= 20
 a*=b
-print(a)
+print("multiplication assign=",a)
 
 # division assignment operators (/=) float value 
 
 a = 30
 b = 2
 a/=b
-print(a)
+print("division assign=",a)
 
 # modulus assignment operators (%=) remainder 
 a = 30
 b = 2
 a%=b
-print(a)
+print("Modulus assign=",a)
 
 # floor Division assignment operators (//=) int value
 
 a= 30
 b =2
 a//=b
-print(a)
+print("floor division assign=",a)
 
 # Exponent assignment operators (**=)
 a= 10
 b= 2
 a**=b
-print(a)
+print("Exponent assign=",a)

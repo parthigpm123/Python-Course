@@ -1,5 +1,5 @@
 # This is  7 Type of operators in python
-'''
+
 
 # 1 arithmetic operators addition(+) கூட்டல் 
 x=10 
@@ -40,7 +40,7 @@ print(n//p)
 a =10 #==>base value
 b = 2  #======> exponent value  10x10=100 10 times multiple 10
 print(a**b)
-'''
+
 # Division and Floor Division Examples
 
 # List of pairs to divide

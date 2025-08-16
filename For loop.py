@@ -111,4 +111,5 @@ for i in range(1,2):
     for l in range(1,2):
         print("****")
          
-      
+for z in range(1,11):
+    print("7x",z,"=",7*z)      
