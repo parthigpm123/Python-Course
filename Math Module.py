@@ -18,3 +18,25 @@ print(e)
 #-----------------------------------------------------
 
 # absolute value
+
+f = abs(-5)
+print(f)
+
+#-------------------------
+
+#square root 
+g = math.sqrt(25)
+
+print(g)
+
+#-----------------------------
+
+#factorial 
+h= math.factorial(3)
+
+print(h)
+
+#---------------------
+# find out binary of number
+bin1=bin(10)
+print(bin1)
