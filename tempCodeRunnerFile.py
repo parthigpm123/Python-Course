@@ -1,2 +1,3 @@
 
-print("Today Date")
+result=add()
+print(result)

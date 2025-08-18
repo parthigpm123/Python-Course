@@ -13,8 +13,10 @@ print("hello \nworld") #new line or line break
 print("hello\tworld") # horizontal tab (space between words)
 
 
-print("hello\\world  ")
+print("backslash:","hello\\world  ")
 
 print("hello's world")
 
 print("hello\'s world")
+
+print("\nHello world")

@@ -181,7 +181,7 @@ try:
 
 except ValueError as e:
     print("Error:", e)
- '''
+
  
 import time
 x =time.localtime()
@@ -194,4 +194,29 @@ print("minute", x.tm_min)
 print("second", x.tm_sec)
 print("hello")
 
-     
+
+def add():
+      a=int(input('enter'))
+      b=int(input("enter"))
+      c=a+b
+      return c
+result=add()
+print(result)
+
+
+
+for x in range(1,11):
+      
+     print('5 tables')
+a=int(input("Enter Number : "))
+      
+print(a,"x 5 =",a*5)    
+'''
+
+
+def print_table(number):
+      for i in range(1,11):
+          print(number, "x", i,"=",number*i)
+n=int(input("Enter number: "))
+print_table(n)             
+      
