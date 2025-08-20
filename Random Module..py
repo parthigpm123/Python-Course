@@ -32,7 +32,7 @@ print("best random fruit :",fruit)
 #5shuffle a list
 
 shuffle1=[1,2,3,4,5,67,]
-v   
+
 r.shuffle(shuffle1)
 
 print(shuffle1)
