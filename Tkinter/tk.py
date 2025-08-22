@@ -1,3 +1,4 @@
+'''
 import tkinter 
 
 #tkinter allows to  create GUI applications or widgets
@@ -22,3 +23,9 @@ label.pack(expand=True, anchor="center")
 label.pack()
 #Run application
 root.mainloop()
+'''
+
+file =  open("File_Handling/code.txt","r")
+
+print(file.read())
+file.close()
