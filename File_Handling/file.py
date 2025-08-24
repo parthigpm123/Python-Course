@@ -22,8 +22,36 @@ If file is already present, it will throw FileExistsError
 
 '''
 
-file = open('File_Handling/code.txt','r')
+file = open('code.txt','r+')
 
-print(file.read())
-file.close()
+#print(file.read())
+#basic functions
+print("file mode====>",file.mode)
+print("file name====>",file.name)
+print("file property====>",file.readable())
+print("file writable====>",file.writable)
+print("file closed or not====>",file.closed)
+
+
+print("file closed or not====>",file.closed)
+
+#write mode
+file.write("python is awesome")
+
+file.write("i love gaming")
+
+#file=open("code.txt","a+")
+file.write("ppppp\n")
+#
+
+
+#list add in file
+lst=[" parthiban  ","vijay  ", "balaji  ","arul \n"]
+file.writelines(lst)
+
+
+# all text file read
+read1=file.read()
+
+print(read1)
 
