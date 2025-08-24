@@ -1,3 +1,6 @@
+# text mode ===> default mode
+# binary mode for images and videos 
+
 '''
 
 File is not present --> FileNotFoundError
@@ -21,6 +24,9 @@ X --> Exclusive Operation
 If file is already present, it will throw FileExistsError
 
 '''
+''' print(f.tell()) #find the cursor position'''
+
+'''print(f.seek(0)) # move cursor position'''
 
 file = open('code.txt','r+')
 
@@ -36,9 +42,9 @@ print("file closed or not====>",file.closed)
 print("file closed or not====>",file.closed)
 
 #write mode
-file.write("python is awesome")
+file.write("python is awesome\n")
 
-file.write("i love gaming")
+file.write("i love gaming\n")
 
 #file=open("code.txt","a+")
 file.write("ppppp\n")
@@ -48,10 +54,40 @@ file.write("ppppp\n")
 #list add in file
 lst=[" parthiban  ","vijay  ", "balaji  ","arul \n"]
 file.writelines(lst)
+file.seek(0)
+
+#read all data from file 
+print("read all===>",file.read())
+file.seek(0)
+
+#only one line read
+print("One line only====>",file.readline())
+print("cursor position===>",file.tell())  
+#read all line in list format
+file.seek(0)
+print("list format===>",file.readlines())
 
 
-# all text file read
-read1=file.read()
+# with statement to open file 
 
-print(read1)
+#important point
+'''you dont need to close the file manually. it will auto close once operation done'''
 
+with open("code.txt","r") as f:
+      print(f.read())
+
+
+# new txt file create method      
+with open("code2.txt","x") as cod2:
+      cod2.write("hello world")
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      
+# binary format open video image and audio      
+#with open("god.jpg","rb") as h:
+      #print(h.read())      
