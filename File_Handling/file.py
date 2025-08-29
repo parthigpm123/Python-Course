@@ -83,11 +83,6 @@ with open("code2.txt","x") as cod2:
  
  
  
- 
- 
- 
- 
-      
 # binary format open video image and audio      
 #with open("god.jpg","rb") as h:
       #print(h.read())      
