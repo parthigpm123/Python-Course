@@ -81,6 +81,15 @@ with open("code.txt","r") as f:
 with open("code2.txt","x") as cod2:
       cod2.write("hello world")
  
+#-----------------------------------------#
+
+'''
+add path into file name to open file from different location
+''' 
+file1 =open("Print Function/test.txt","w")
+print("hello world python",file=file1)
+file1.close()
+
  
  
 # binary format open video image and audio      
