@@ -6,6 +6,18 @@ games most used
 2. shuffle cards
 3.enemy movement in games
 4.ludo ,snake ,ladder,poker ,lottery, otp
+
+main functions
+
+1 randint()
+
+2 randrange()
+
+3 random()
+
+4 random.choice()
+
+5 shuffle()
 '''
 import random as r
 

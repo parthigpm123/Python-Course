@@ -37,8 +37,8 @@ sys.setrecursionlimit(2000)
 
 print("The Limit Of Recursion:",sys.getrecursionlimit(),"Time Only Will repeat")
 
-def greet(no):
+def greet():
       print("hello")
-greet(1)      
+greet()      
 
 

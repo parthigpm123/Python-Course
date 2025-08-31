@@ -20,3 +20,5 @@ print("hello's world")
 print("hello\'s world")
 
 print("\nHello world")
+
+print('\a')
