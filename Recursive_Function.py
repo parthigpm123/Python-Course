@@ -30,3 +30,15 @@ python 2
 python 1
 
 '''
+
+import sys
+
+sys.setrecursionlimit(2000)
+
+print("The Limit Of Recursion:",sys.getrecursionlimit(),"Time Only Will repeat")
+
+def greet(no):
+      print("hello")
+greet(1)      
+
+
