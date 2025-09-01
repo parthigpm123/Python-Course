@@ -1,4 +1,4 @@
-'''
+
 #list store value of int,
 #bool value ,string value  we  can make duplicate, changeable,
 
@@ -38,19 +38,19 @@
 # nested list (append)
 
 lst1 = [1,2,3,4,56,7]
-print(len(lst1)) #===len function
+print("Len Function==>",len(lst1)) #===len function
 
 #_______________________________________________________________#
 
 lst1.append(2 )
-print(lst1) #===append function
+print("Append Function==>",lst1) #===append function
 
 #_______________________________________________________________#
 lst2=[1,2,3]
 
 lst3 = ['parthiban'] #====> extend function
 lst2.extend(lst3)
-print(lst2)
+print("Extend Func==>",lst2)
 
 #___________________________________#
 
@@ -58,7 +58,7 @@ lst4 = [1,2,3,4,5]
 
 lst4.insert(0 ,0)
  
-print(lst4)
+print("Insert Func==>",lst4)
 
 #________________________#
 
@@ -70,7 +70,7 @@ lst6 =[7,8,9]
 
 lst5.append(lst6)
 
-print(lst5)
+print("Nested==>",lst5)
 
 #__count__
 
@@ -78,7 +78,7 @@ ls2 =[1,1,1,1,1,1]
 
 ls2.count(1)
 
-print(ls2.count(1))
+print("Count Func==>",ls2.count(1))
 
 #_________________
 
@@ -86,7 +86,7 @@ print(ls2.count(1))
 
 ls3 = (1,2,3,4,5,6)
 
-print(ls3.index(5))
+print("Index==>",ls3.index(5))
 
 #_______________#
 
@@ -94,15 +94,15 @@ print(ls3.index(5))
 
 ls4=[1,10,3,4]
 
-print(min(ls4))
+print("Min==>",min(ls4))
 
-print(max(ls4))
+print("max==>",max(ls4))
 
 #___________________
 #sum add all value
 
 ls5 = [10,10]
-print(sum(ls5))
+print("Sum==>",sum(ls5))
 
 ls5[0] = 100
 #
@@ -111,21 +111,21 @@ ls5[0] = 100
 #delete index position value pop() default value -1
 ls6 = [1,2,3]
 ls6.pop(2)
-print(ls6)
+print("Delete Index==>",ls6)
 
 
 #delete data position value .remove()
 ls7 =[1,3,34,4,5,6,7,]
 ls7.clear()
-print(ls7)
+print("Clear func==>",ls7)
 
 #nested list
 
 ls1=[[1,2,2],[4,5,6,7]]
 print(ls1[1])
 
-print(ls1[1][0])
-'''
+print("List Slice==>",ls1[1][0])
+
 
  #sort function
 lst=["prthiban", "apple", "banana"]
@@ -133,7 +133,7 @@ lst2 =[1,2,3,4,56,2,3,34,5]
 lst2.reverse()
 
 ls2
-print(lst2)
+print("Sort==>",lst2)
 
 
 
