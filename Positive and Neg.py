@@ -1,3 +1,6 @@
+''' find positive and negative numbers'''
+# basic syntax 
+
 num =int(input("Enter The Number==>"))
 
 if num >0:
