@@ -2,8 +2,19 @@
 
  1 Email Validation
 2.phone number validation 
-3.URL validation 
+3.URL validation
+
+important func
+
+1 match()
+
+2 search()
+
+3 findall()
+
+4 finditer 
 '''
+
 
 
 import re

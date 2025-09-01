@@ -1,3 +1,0 @@
-
-result=add()
-print(result)
