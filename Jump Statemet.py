@@ -23,7 +23,7 @@ for i in range(1,11):
        continue# it will skip 3 value
       if i==8:
             break
-      print(i)    
+      print("continue statement==>",i)    
       
   
 while True:

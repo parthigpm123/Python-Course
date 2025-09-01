@@ -9,9 +9,11 @@ for i in range (len(lst)):
       
 print("----------------------------")
 # method 2 
-
+count=0
 for i in lst:
-      print(i)     
+      count+=1
+      print(count,i,sep=".")
+           
 
 
 
