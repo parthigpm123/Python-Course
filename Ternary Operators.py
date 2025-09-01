@@ -13,3 +13,10 @@ print("child" if age < 18 else "Adult")
 age = 20
 status = "Adult" if age >= 18 else "Minor"
 print(status)   # Output: Adult
+
+
+ag=int(input('Enter Your Age=>'))
+
+check="Adult" if ag >= 18 else "Child"
+
+print("your age is",ag,"you are",check)

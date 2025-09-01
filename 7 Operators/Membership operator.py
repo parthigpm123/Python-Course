@@ -19,3 +19,4 @@ list =[ "banana", 1 , 2, 3 ,4]
 print("hello" in str)
 
 print("banana" not in list)
+

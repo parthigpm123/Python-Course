@@ -8,3 +8,8 @@ print(10 is 10)
 # 2 is not  memory location are not same location result are false
 
 print(10 is not 10)
+
+
+numbers = [1,4,2,8,5]
+
+print("TRUE or FALSE==>",2 is numbers)
