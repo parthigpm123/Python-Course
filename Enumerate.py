@@ -13,4 +13,4 @@ print(list(enumerate (lst,start=1)))
 #for loop  enumerate
 for index,value in enumerate(lst,start=1):
       print(index,value)
-
+      
