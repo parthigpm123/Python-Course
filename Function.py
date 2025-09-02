@@ -148,4 +148,19 @@ print(pass1)
 
 '''
  
+#a = int(input("Enter Input Value="))
+#b = int(input("Enter Input Value="))
+ 
+def func(a,b):
+       return a+b
+       
+print("💖💖Print Function=>",func(1,2))    
+
+
+lst =[ "💖", "💖💖","💖💖💖"]
+
+def addEm(x,y,z):
+      print(x+y+z)
       
+x,y,z = 1,2,3
+addEm(x,y,z)      
