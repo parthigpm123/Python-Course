@@ -19,7 +19,7 @@ car===>    volvo,audi
 fruit==>   apple,orange,mango
 
 '''
-
+'''
 #class is a template
 
 class car:
@@ -85,4 +85,60 @@ car1.price = 30
                   
 print(car1.price)                 
 
-      
+class pondy():
+      name=""
+      drink=""
+      def enjoy(self):
+            return "Let's Enjoy Party"
+      def study(self):
+       return "study purpose"      
+
+vijay=pondy()
+parthiban=pondy()
+#----------------------------#
+vijay.name="vijay"
+vijay.drink="hot and bear"
+parthiban.drink="bear only"
+#---------------------------------#
+print(vijay.name)
+b=vijay.enjoy()
+print(b)
+print(vijay.drink)
+#-------------------------------------------#
+parthiban.name="parthiban"
+print("\n",parthiban.name)
+a=parthiban.enjoy()
+print(a)
+print(parthiban.drink)
+'''
+
+
+class laptop():
+      price=0
+      processor=""
+      Ram=""
+
+HP=laptop()
+Dell=laptop()
+Lenovo=laptop() 
+
+HP.price=40000
+HP.processor="i5"
+HP.ram="16gb ram"     
+
+Dell.price=50000
+Dell.processor="i7"
+Dell.ram="8gb"
+#-----------------------------------------#
+
+print("\nHP Laptop Details!")
+print("Hp Laptop Price    :",HP.price)
+print("Hp processor Price :",HP.processor)
+print("Hp Ram Price      :",HP.ram,"\n")
+
+#-------------------------------#
+
+print("Dell Laptop Details!")
+print("Dell Laptop Price:",Dell.price)
+print("Dell Processor   :",Dell.processor)
+print("Dell ram size    :",Dell.ram) 
