@@ -209,14 +209,12 @@ for x in range(1,11):
       
      print('5 tables')
 a=int(input("Enter Number : "))
-      
-print(a,"x 5 =",a*5)    
 '''
 
-
-def print_table(number):
-      for i in range(1,11):
-          print(number, "x", i,"=",number*i)
-n=int(input("Enter number: "))
-print_table(n)             
-      
+a=print
+b = True
+c= False
+e =min
+f= max
+a("hello world")
+     
