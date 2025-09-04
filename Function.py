@@ -271,14 +271,11 @@ add(5+a,b)
 
 def add(a,b):
        z=a+b
-       return z 
+       y=a-b
+       x=a*b
+       
+       
+       return f"Added_value={z}, sub_value={y},mul_value={x}"
+#output=add()
 output=add(10,10)
-print(output)   
-
-
-def add2(x):
-      return 2+x
-out=add2(output)
-print(out)
-         
-
+print(output)                                    

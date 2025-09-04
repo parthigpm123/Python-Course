@@ -110,7 +110,7 @@ print("\n",parthiban.name)
 a=parthiban.enjoy()
 print(a)
 print(parthiban.drink)
-'''
+
 
 
 class laptop():
@@ -142,3 +142,127 @@ print("Dell Laptop Details!")
 print("Dell Laptop Price:",Dell.price)
 print("Dell Processor   :",Dell.processor)
 print("Dell ram size    :",Dell.ram) 
+
+'''
+'''Constructor and self Keyword'''
+'''
+class laptop:
+      def __init__(self):
+      # print('def init=',"hello world")
+       self.price=5000000
+       self.processor="kjjhjgk"
+       self.ram="kgggfy"
+      def display(self):
+            print("dell price=",self.price)
+            print("dell processor=",self.processor)
+            print("dell ram",self.ram)
+             
+
+hp=laptop()
+
+dell=laptop()
+      
+
+hp.price=40000
+hp.processor="i5"
+hp.ram="16gb" 
+
+dell.price="60000"
+dell.processor="i9"
+dell.ram="32gb"
+       
+hp.display()       
+       
+dell.display()
+
+
+print("----------------------------------------------")
+
+#value change while object create inside arguments giving
+class fruits():
+      def __init__(self,col):
+            self.color=col
+
+mango=fruits("yellow")            
+            
+print(mango.color)            
+print("#---------------------------------------------#")
+
+
+print("Faculty Details")
+class teacher:
+      def __init__(self,nam,reg):
+            self.name=nam
+            self.regno=reg
+            
+      def display(self):
+            print("Teacher Name:",self.name)
+            print("The Register No:",self.regno)
+t1=teacher("Mala",6374)
+t2=teacher("malar",1234) 
+
+t1.display()
+t2.display()                 
+            
+            
+class calculator():
+      def __init__(self,a,b):
+            self.a=a   
+            self.b=b
+      def add(self):
+            #print("Added Value=         ",self.a+self.b)
+            #print("subtract value=      ",self.a-self.b)
+            #print("multiplication value=",self.a*self.b)
+            #print("division value=      ",self.a/self.b)
+            x=self.a+self.b
+      
+            return x
+      
+cal1=calculator(10,10)
+
+                     
+print(cal1.add())
+
+
+class car():
+      def __init__(self,wheels,airbags,mileage):
+            wheels,self.wheels=wheels
+            self.airbags=airbags
+            self.mileage=mileage
+            
+car1=car(4,3,70)            
+
+print(car1.wheels)
+'''
+
+class phone():
+      charger_type="B-type"
+      charger_type="C-Type"
+        #class Variables
+      
+      def __init__(self,brand,price):
+            self.brand=brand
+            self.price=price #instance variable
+      def display(self):
+            
+                   
+            print("Brand:",self.brand)
+            print("Price:",self.price)
+            print("Charger type",self.charger_type) 
+phone.charger_type="A-type"             
+samsung=phone("samsung",10000)
+samsung.display()
+
+print("\n")
+redmi=phone("Redmi",40000)
+redmi.display()
+
+print("\n")
+
+google=phone("Google Pixel",50000)
+google.display()
+
+
+
+            
+            
