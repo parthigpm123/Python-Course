@@ -1,10 +1,12 @@
 '''There are three type of Methods in python oops
 
-1.Instance Method
+1.Instance Method = self keyword
 
-2.Class Method
 
-3.static method
+
+2.Class Method = @classmethod (cls)=decoratorr
+
+3.static method=@staticmethod
 
 
 '''
@@ -40,12 +42,12 @@ print("class method completed\n")
 
 print("This is static method") 
 
-class static():
+class calculator():
       
       @staticmethod
       def add(a,b):
             return a+b 
-result=static.add(10,10)
+result=calculator.add(10,10)
 
 print("Added Result:",result)      
                 
@@ -59,11 +61,12 @@ class laptop():
       def __init__(self):
             self.brand=""
             self.price=40
-      def set_price(self,price):
+      def set_price(self,price,brand):
             self.price=price
-            self.brand=""
+            self.brand=brand
       def get_price(self):
-            print("Price:",self.price)
+            print("Car Price:",self.price)
+            print('Car Brand:',self.brand)
             '''classmethod'''     
       @classmethod       
       def change_charger_type(cls):
@@ -78,7 +81,7 @@ class laptop():
 hp=laptop()
 
 
-hp.set_price(40000)
+hp.set_price(40000,"Innova")
 hp.get_price()
 laptop.change_charger_type()
 
