@@ -235,6 +235,8 @@ car1=car(4,3,70)
 print(car1.wheels)
 '''
 
+'''Types of variables in the class '''
+'''
 class phone():
       charger_type="B-type"
       charger_type="C-Type"
@@ -261,8 +263,23 @@ print("\n")
 
 google=phone("Google Pixel",50000)
 google.display()
+'''
 
 
+'''Types of methods in class'''
 
-            
-            
+class laptop():
+      Charger_type="B-Type"
+      def __init__(self):
+            self.brand=""
+            self.price=40
+      def set_price(self,price):
+            self.price=price
+            self.brand=""
+      def get_price(self):
+            print("Price:",self.price)            
+hp=laptop()
+
+
+hp.set_price(40000)
+hp.get_price()            
