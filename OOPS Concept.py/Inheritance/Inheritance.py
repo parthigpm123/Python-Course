@@ -1,4 +1,4 @@
-'''there is 5 type of Inheritance
+'''There is 5 type of Inheritance
 
 1 Single Inheritance
 
@@ -8,7 +8,7 @@
 
 4 Hierarchy Inheritance
 
- Hybrid Inheritance
+5 Hybrid Inheritance
 
 '''
 '''
@@ -58,11 +58,12 @@ sam=son()
 sam.money()       
 
 dad1=dad()
-dad1.phone()                              
+dad1.phone()                  2     czxw vcbnjv]ZY             
 sam.phone()            
 '''
 
 #Hierarchy Inheritance
+'''access 1 dad property multiple son  son1 son2 son3'''
 
 class dad():#parent Class
       def money(self):
@@ -76,6 +77,8 @@ class son3(dad):
       pass            
 s1=son3()
 s1.money()                        
+
+#Hybrid  inheritance
             
              
 '''Hybrid inheritance
