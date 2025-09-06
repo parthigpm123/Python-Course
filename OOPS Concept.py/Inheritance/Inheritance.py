@@ -77,5 +77,31 @@ class son3(dad):
 s1=son3()
 s1.money()                        
             
-                        
+             
+'''Hybrid inheritance
+
+=>The hybrid inheritance is combination of more than two or more type of inheritance 
+
+=>combined=single,multi-level,multiple inherit,hierarchy inherit
+'''
+
+class school():
+      def display_school(self):
+            print("This is school class")
+class teacher1(school):
+      def display_teacher1(self):
+            print("This is teacher1 class")
+class teacher2(school):
+      def display_teacher2(self):
+            print("This is teacher2 class")
+                                                               
+class student(teacher1,teacher2):
+      def display_student(self):
+            print("This is student class")
             
+s1=student()
+s1.display_school()   
+s1.display_teacher1()      
+s1.display_teacher2()
+s1.display_student()
+                                         
