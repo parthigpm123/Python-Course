@@ -20,7 +20,7 @@ Methods
 
 '''
 
-''' 1.Public= Public= access by any functions and classes '''
+''' 1.Public= access by any functions and classes '''
 class company():
       def __init__(self):
             self.companyname='Public google'#Public Attributes
