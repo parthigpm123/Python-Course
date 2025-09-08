@@ -17,7 +17,7 @@ while(i>0):
 '''      
 
 
-count=1 # star value 
+count=1 # start value 
 
 while count<10: # end value 
       
