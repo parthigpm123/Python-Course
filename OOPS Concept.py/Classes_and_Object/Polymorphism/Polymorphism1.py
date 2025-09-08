@@ -1,5 +1,13 @@
 '''Key aspects of polymorphism in Python:
-Method Overriding: This is a common form of polymorphism in inheritance. Subclasses can provide their own specific implementation of a method that is already defined in their superclass. When the method is called on an object of the subclass, the overridden version is executed.'''
+Method Overriding: This is a common form of polymorphism in inheritance. Subclasses can provide their own specific implementation of a method that is already defined in their superclass. When the method is called on an object of the subclass, the overridden version is executed.
+
+Three types
+1.Method overloading
+2.method overriding
+3operator overloading
+
+
+'''
 
 '''
 class animal():
@@ -83,7 +91,15 @@ class manager(employee):
   
 q1=manager("parthiban",50000,"developer")
 q1.display()
-
            
                            
-      
+                           
+'''Method overloading'''                           
+class calculator():
+      def sum(self,*args):
+            sum=0
+            for i in args:
+                  print("Added Value Result:",sum+i)
+obj=calculator()
+obj.sum(10,10,10)                  
+                        

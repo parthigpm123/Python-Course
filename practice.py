@@ -210,7 +210,7 @@ for x in range(1,11):
      print('5 tables')
 a=int(input("Enter Number : "))
 '''
-
+'''
 print("last polymorphism")               
                        
 class employee():
@@ -229,5 +229,18 @@ class manager(employee):
   
 q1=manager("h",5000,"hr")
 q1.display()
+'''
 
-     
+
+class animal():
+      def sound(self):
+       print("Animal makes Sound")
+class dog(animal):
+      def sound(self):
+            print('Dog barks')     
+            
+class bird(animal):
+      def sound(self):
+            print("birds sings")               
+b1=bird()
+b1.sound()     
