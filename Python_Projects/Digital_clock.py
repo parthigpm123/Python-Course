@@ -4,7 +4,7 @@ import time
 def digital():
       t=time.strftime("%I:%M:%S %p")
       #date add
-      d=time.strftime("%a/%b/%Y")
+      d=time.strftime("%d/%b/%Y")
       clock.config(text=t + "\n" + d)
       #clock.config(text=d) 
       clock.after(200,digital)
