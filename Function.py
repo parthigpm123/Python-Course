@@ -279,3 +279,20 @@ def add(a,b):
 #output=add()
 output=add(10,10)
 print(output)                                    
+
+
+def outer():
+    name = 'vijay'
+    def inner():
+        nam = "john"
+        def nest():
+            n = "vicky"
+            print(n)
+        nest()
+        print(nam)
+    inner()
+    print(name)
+
+outer()
+             
+                 
