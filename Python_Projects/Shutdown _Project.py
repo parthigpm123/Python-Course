@@ -10,6 +10,6 @@ Command =input("Enter Your Command :")
 if "1" in Command:
       os.system("shutdown /s")
 if "2" in Command:
-      os.system("shutdown /r")
+      os.system("reboot")
 if "3" in Command:
       exit()           
