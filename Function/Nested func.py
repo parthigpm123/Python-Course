@@ -13,7 +13,8 @@ def outer():
       print(name)
 outer()      
               
-                  
+    
+"""function can return another function"""              
                   
 def outer():
       x=5
