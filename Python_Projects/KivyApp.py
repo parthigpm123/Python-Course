@@ -1,13 +1,11 @@
-from kivy.app import App
+from kivymd.app import MDApp
 
-from kivy.uix.label import Label
+from kivymd.uix.label import MDLabel
 
-class MainApp (App):
+class Main_App (MDApp):
       def build(self):
-       label = Label (text='Hello from Kivy')
-       return label
+       return MDLabel(text="WELCOME TO PYTHON WORLD", halign="center")
  
 if __name__ == '__main__':
-      app = MainApp()
-      app.run()
+      Main_App().run()
 
