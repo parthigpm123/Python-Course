@@ -30,6 +30,7 @@ print(obj())#upper case
 ''' Simple Decorator Example'''
 
 def strupper(func):
+
       def inner():
             str1=func()
             return str1.upper()
