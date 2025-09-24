@@ -4,7 +4,7 @@ from kivymd.uix.label import MDLabel
 
 class Main_App (MDApp):
       def build(self):
-       return MDLabel(text="WELCOME TO PYTHON WORLD", halign="center")
+       return MDLabel(text="hello world", halign="center")
  
 if __name__ == '__main__':
       Main_App().run()
