@@ -1,0 +1,1 @@
+DELETE FROM studentrecords WHERE student_name = 'Parthiban M' or student_name = 'ajith';

@@ -33,7 +33,7 @@ print("\nNew Database Connection")
 print("---------------------")
 # Connect to PostgreSQL
 conn = psycopg2.connect(
-    dbname="newdatabase",   # your database name
+    dbname="Database2",   # your database name
     user="postgres",        # your username
     password="root",  # replace with your password
     host="localhost",
