@@ -8,4 +8,8 @@ An alias only exists for the duration of that query.
 An alias is created with the AS keyword.*/
 
 
-SELECT student_id AS std_ID, student_name AS std_name, studentmarks AS MARKS, studentdepartment AS Dept FROM studentrecords;
+SELECT student_id AS std_ID,
+student_name AS std_name,
+studentmarks AS MARKS,
+studentdepartment AS Dept
+FROM studentrecords;
