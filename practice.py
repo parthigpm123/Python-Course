@@ -229,7 +229,6 @@ class manager(employee):
   
 q1=manager("h",5000,"hr")
 q1.display()
-'''
 
 
 class animal():
@@ -243,4 +242,22 @@ class bird(animal):
       def sound(self):
             print("birds sings")               
 b1=bird()
-b1.sound()     
+b1.sound()  
+
+while True:
+      
+      try:  
+         a = int(input("Enter Table Number : "))
+         for i in range(1,11):
+          print(i,'x',a,'=',i*a)
+      except:
+            print("Enter A integer value")       
+            
+'''
+
+a=int(input("Enter value : "))
+b=int(in
+   
+
+for i in range(a or b,100):
+      print(i)

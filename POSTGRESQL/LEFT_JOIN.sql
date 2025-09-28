@@ -1,0 +1,1 @@
+select * from studentrecords left join car on studentrecords.student_name = car.carname;
