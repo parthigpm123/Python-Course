@@ -6,10 +6,12 @@ CREATE TABLE Studentrecords (
     Studentdepartment VARCHAR(50)
 );
 
-CREATE TABLE car(
+CREATE TABLE cars(
     carname VARCHAR(50),
     carmodel INT,
     carprice INT,
     carowner VARCHAR(50)
 );
+
+
 

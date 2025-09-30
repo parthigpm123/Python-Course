@@ -1,0 +1,2 @@
+ALTER TABLE cars
+ADD COLUMN carseat VARCHAR(50);

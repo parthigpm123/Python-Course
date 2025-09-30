@@ -8,11 +8,11 @@ INSERT INTO studentrecords(
         (5, 'ajith', 80, 'IT');
 
       
-INSERT INTO car(
+INSERT INTO cars(
       carname, carmodel, carprice,carowner
 )
-VALUES ('BMW', 'X5', 60000, 'parthiban'),
-       ('Audi', 'A6', 55000, 'kumar'),
-       ('Mercedes', 'C-Class', 50000, 'raja'),
-       ('Toyota', 'Camry', 40000, 'vijay'),
-       ('Honda', 'Accord', 35000, 'ajith');
+VALUES ('BMW', 2025, 60000, 'parthiban'),
+       ('Audi', 2025, 55000, 'kumar'),
+       ('Mercedes', 2025, 50000, 'raja'),
+       ('Toyota', 2025, 40000, 'vijay'),
+       ('Honda', 2025, 35000, 'ajith');

@@ -1,0 +1,12 @@
+
+
+/*GRANT SELECT, INSERT ON my_table TO my_user;
+GRANT ALL PRIVILEGES ON my_schema TO admin_role WITH GRANT OPTION;*/
+
+
+
+GRANT CONNECT ON DATABASE postgres TO friend;
+GRANT USAGE ON SCHEMA public TO friend;
+GRANT SELECT, INSERT ON TABLE cars TO friend;
+
+
