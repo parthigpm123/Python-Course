@@ -2,7 +2,7 @@
 SELECT * FROM studentrecords;
 SELECT * FROM cars;
 SELECT * FROM myrecords;
-SELECT * FROM car;
+SELECT * FROM data;
 
 
 

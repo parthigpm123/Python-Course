@@ -16,3 +16,8 @@ VALUES ('BMW', 2025, 60000, 'parthiban'),
        ('Mercedes', 2025, 50000, 'raja'),
        ('Toyota', 2025, 40000, 'vijay'),
        ('Honda', 2025, 35000, 'ajith');
+
+INSERT INTO Datta(
+      name, age, address, contact, mail
+)
+VALUES ('parthiban', 24, 'Chennai', '9876543210', 'patrthigpm123@gmail.com')       
