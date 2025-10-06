@@ -5,9 +5,6 @@ SELECT * FROM myrecords;
 SELECT * FROM data;
 
 
-SELECT * FROM car;
-
-
 
 
 
