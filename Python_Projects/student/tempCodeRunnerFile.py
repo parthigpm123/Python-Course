@@ -1,1 +1,0 @@
-self.DOB_Entry.delete(0,END)
