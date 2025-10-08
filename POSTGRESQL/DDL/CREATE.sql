@@ -1,6 +1,6 @@
 
 
-CREATE TABLE Datta (
+CREATE TABLE data (
     pid SERIAL PRIMARY KEY,
     name VARCHAR(100),
     age INT,

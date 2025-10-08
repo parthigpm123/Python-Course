@@ -10,3 +10,5 @@ GRANT USAGE ON SCHEMA public TO friend;
 GRANT SELECT, INSERT ON TABLE car TO friend;
 
 
+GRANT SELECT, INSERT ON my_table TO my_user;
+GRANT ALL PRIVILEGES ON my_database TO my_admin_role WITH GRANT OPTION;
