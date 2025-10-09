@@ -34,7 +34,7 @@ win = Tk()
 win.title("Weather App")
 win.config(bg = "blue")
 win.geometry("500x570")
-win.config(bg="#17AFEB")  # Sky blu
+win.config(bg="#17AFEB")  # Sky blue
 
 
 name_label = Label(win,text="Weather App",font=("Time New Roman",30,"bold"))

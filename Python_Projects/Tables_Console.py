@@ -1,4 +1,5 @@
-"''Tables Generator Program in Python"
+print('\n',"Tables Generator Program in Python")
+print("----------------------------------")
 while True:
       try:
             num = int(input("\nEnter Table Number!: "))
