@@ -1,3 +1,5 @@
+The CASE statement in SQL provides conditional logic, allowing different values to be returned based on specific conditions. It functions similarly to IF-THEN-ELSE statements found in other programming languages.
+
 ⚙️ In Short:
 Keyword	Purpose
 CASE	Starts the condition block
