@@ -10,7 +10,7 @@ FULL JOIN: Returns all records when there is a match in either left or right tab
 CROSS JOIN: Returns the Cartesian product of both tables, combining each row from the first table with all rows from the second table
 
 
--- Example of INNER JOIN in PostgreSQL
+-- Example of INNER JOIN in PostgreSQL Retrieving  Common Records from Two Tables
 SELECT testproduct_id, product_name, category_name
 FROM testproducts
 INNER JOIN categories ON testproducts.category_id = categories.category_id;
