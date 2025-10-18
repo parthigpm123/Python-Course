@@ -1,3 +1,4 @@
+An aggregate Function is a Function that performs a calculation on a set of values and returns a single value. Aggregate functions are often used with the GROUP BY clause of the SELECT statement.
 /*🔹 Common Aggregate Functions 5
 
 Function	Description	Example:
