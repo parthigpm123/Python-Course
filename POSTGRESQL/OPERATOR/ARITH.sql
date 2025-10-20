@@ -1,0 +1,1 @@
+select 10-5 as DifferenceResult;
