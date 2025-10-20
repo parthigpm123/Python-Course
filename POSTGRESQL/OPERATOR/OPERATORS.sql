@@ -17,6 +17,45 @@ BETWEEN	Check if a value is between a range of values
 IS NULL	Check if a value is NULL
 NOT	Makes a negative result e.g. NOT LIKE, NOT IN, NOT BETWEEN
 
++: Addition.
+-: Subtraction.
+*: Multiplication.
+/: Division.
+%: Modulo (returns the remainder of a division).
+^: Exponentiation.
+|/: Square root.
+||/: Cube root.
+!: Factorial. 
+
+Used for matching string values against patterns. 
+LIKE (~~): Case-sensitive pattern matching using wildcards % (any sequence of zero or more characters) and _ (any single character).
+ILIKE (~~*): Case-insensitive version of LIKE.
+~: Case-sensitive POSIX regular expression match.
+~*: Case-insensitive POSIX regular expression match.
+SIMILAR TO: SQL standard operator for pattern matching, falling between LIKE and regular expressions. 
+
+ Bitwise operators
+Used for manipulating individual bits within integer and bit string data types. 
+&: Bitwise AND.
+|: Bitwise OR.
+#: Bitwise XOR.
+~: Bitwise NOT.
+<<: Bitwise shift left.
+>>: Bitwise shift right. 
+
+Subquery operators
+Used to evaluate conditions based on the results of a subquery.
+ALL: Compares a value against every value returned by a subquery. For a condition to be true, it must be true for all values.
+ANY / SOME: Compares a value against any value returned by a subquery. The condition is true if it is true for at least one of the values.
+EXISTS: Returns true if the subquery returns at least one row, and false if it returns none.
+
+Set operators
+Used to combine the results of two or more SELECT statements.
+UNION: Combines the result sets of two or more queries, removing duplicate rows.
+UNION ALL: Combines the result sets of two or more queries, keeping all duplicate rows.
+INTERSECT: Returns only the rows that are present in both result sets.
+EXCEPT: Returns only the rows that are in the first result set but not in the second. 
+
 
 1 Logical operators
 Used to combine or negate Boolean expressions, often in a WHERE or HAVING clause. 
@@ -62,33 +101,23 @@ ILIKE (~~*): Case-insensitive version of LIKE.
 SIMILAR TO: SQL standard operator for pattern matching, falling between LIKE and regular expressions. 
 
 
-6 Bitwise operators
-Used for manipulating individual bits within integer and bit string data types. 
-&: Bitwise AND.
-|: Bitwise OR.
-#: Bitwise XOR.
-~: Bitwise NOT.
-<<: Bitwise shift left.
->>: Bitwise shift right. 
-
-
-
-7 Subquery operators
+6 Subquery operators
 Used to evaluate conditions based on the results of a subquery.
 ALL: Compares a value against every value returned by a subquery. For a condition to be true, it must be true for all values.
 ANY / SOME: Compares a value against any value returned by a subquery. The condition is true if it is true for at least one of the values.
 EXISTS: Returns true if the subquery returns at least one row, and false if it returns none.
 
 
+SIMILAR TO: SQL standard operator for pattern matching, falling between LIKE and regular expressions. 
 
 
-8 Set operators
+7 Set operators
 Used to combine the results of two or more SELECT statements.
 UNION: Combines the result sets of two or more queries, removing duplicate rows.
 UNION ALL: Combines the result sets of two or more queries, keeping all duplicate rows.
 INTERSECT: Returns only the rows that are present in both result sets.
 EXCEPT: Returns only the rows that are in the first result set but not in the second. 
-AI can make mistakes, so double-check responses
+
 
 
 
