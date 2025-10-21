@@ -1,15 +1,49 @@
 from tkinter import *
+from tkinter import messagebox
 
 # Function to calculate total (placeholder)
+
+def bill_area():
+      if nameEntry.get()=="" or phoneEntry.get()=="":
+          messagebox.showerror("Error","Customer details should be entered")
+      elif cosmeticpriceEntry.get()=='' and grocerypriceEntry.get()=='' and drinkspriceEntry.get()=='':
+          messagebox.showerror("Error","No Product Purchased")
+      elif cosmeticpriceEntry.get()=='0 Rs' and grocerypriceEntry.get()=='0 Rs' and drinkspriceEntry.get()=='0 Rs':
+          messagebox.showerror("Error","No Product Purchased")
+      else:
+            textarea.insert(END,"\t\t***Welcome Customers***\n")
+            textarea.insert(END,f"\nBill Number : {billnumberEntry.get()}\n")
+            textarea.insert(END,f"\nCustomer Name : {nameEntry.get()}\n")
+            textarea.insert(END,f"\n ustomer Phone Number : {phoneEntry.get()}\n")
+            textarea.insert(END,"\n=======================================================\n")
+            textarea.insert(END,"Products\t\t\tQty\t\t\tPrice\n")
+            textarea.insert(END,"=======================================================\n")
+            if bathsoapEntry.get()!='0':
+                  textarea.insert(END,f"Bath Soap\t\t\t{bathsoapEntry.get()}\t\t\t{soapprice} Rs\n")
+            if facecreamEntry.get()!='0':
+                  textarea.insert(END,f"Face Cream\t\t\t{facecreamEntry.get()}\t\t\t{facecreamprice} Rs\n")
+            if hairsprayEntry.get()!='0':
+                  textarea.insert(END,f"Hair Spray\t\t\t{hairsprayEntry.get()}\t\t\t{hairsprayprice} Rs\n")
+            if hairgelEntry.get()!='0':
+                  textarea.insert(END,f"Hair Gel\t\t\t{hairgelEntry.get()}\t\t\t{hairgelprice} Rs\n")
+            if bodyloationEntry.get()!='0':
+                  textarea.insert(END,f"Body Lotion\t\t\t{bodyloationEntry.get()}\t\t\t{bodyloationprice} Rs\n")
+                                    
+                        
+                
+      
+
 def total():
+      global soapprice,facecreamprice,facewashprice,hairsprayprice,hairgelprice,bodyloationprice
       # Calculate cosmetic price
       soapprice=int(bathsoapEntry.get()) * 20
       facecreamprice=int(facecreamEntry.get())*50
+      facewashprice=int(facewashEntry.get())*30
       hairsprayprice=int(hairsprayEntry.get())*150
       hairgelprice=int(hairgelEntry.get())*80
       bodyloationprice=int(bodyloationEntry.get())*60
       
-      totalcosmeticprice=soapprice+facecreamprice+hairsprayprice+hairgelprice+bodyloationprice
+      totalcosmeticprice=soapprice+facecreamprice+facewashprice+hairsprayprice+hairgelprice+bodyloationprice
       cosmeticpriceEntry.delete(0,END)
       cosmeticpriceEntry.insert(0,str(totalcosmeticprice)+"Rs")
       cosmetictax=totalcosmeticprice*0.12
@@ -270,7 +304,7 @@ buttonFrame.grid(row=0,column=4,rowspan=3)
 totalButton=Button(buttonFrame,text="Total",font=('arial',16,"bold"),bg="gold",fg="black",bd=5,width=8,pady=10,command=total)
 totalButton.grid(row=0,column=0,pady=20,padx=5)
 
-billButton=Button(buttonFrame,text="Bill",font=('arial',16,"bold"),bg="gold",fg="black",bd=5,width=8,pady=10)
+billButton=Button(buttonFrame,text="Bill",font=('arial',16,"bold"),bg="gold",fg="black",bd=5,width=8,pady=10,command=bill_area)
 billButton.grid(row=0,column=1,pady=20,padx=5)
 
 emailButton=Button(buttonFrame,text="Email",font=('arial',16,"bold"),bg="gold",fg="black",bd=5,width=8,pady=10)
