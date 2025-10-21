@@ -291,6 +291,7 @@ textarea.pack()
 scrollbar.config(command=textarea.yview)
 
 
+#=========BILL MENU==========#
 billmenuFrame=LabelFrame(root,text='Bill Menu',font=('times new roman',15,'bold'),fg='gold',bd=8,relief=GROOVE,bg='blue2')
 billmenuFrame.pack()
 
