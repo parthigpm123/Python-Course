@@ -14,27 +14,56 @@ def bill_area():
             textarea.insert(END,"\t\t***Welcome Customers***\n")
             textarea.insert(END,f"\nBill Number : {billnumberEntry.get()}\n")
             textarea.insert(END,f"\nCustomer Name : {nameEntry.get()}\n")
-            textarea.insert(END,f"\n ustomer Phone Number : {phoneEntry.get()}\n")
+            textarea.insert(END,f"\nCustomer Phone Number : {phoneEntry.get()}\n")
             textarea.insert(END,"\n=======================================================\n")
             textarea.insert(END,"Products\t\t\tQty\t\t\tPrice\n")
             textarea.insert(END,"=======================================================\n")
+            #================= Cosmetis Products =============#
             if bathsoapEntry.get()!='0':
                   textarea.insert(END,f"Bath Soap\t\t\t{bathsoapEntry.get()}\t\t\t{soapprice} Rs\n")
             if facecreamEntry.get()!='0':
                   textarea.insert(END,f"Face Cream\t\t\t{facecreamEntry.get()}\t\t\t{facecreamprice} Rs\n")
+            if facewashEntry.get()!='0':
+                  textarea.insert(END,f"Face Wash\t\t\t{facewashEntry.get()}\t\t\t{facewashprice} Rs\n")      
             if hairsprayEntry.get()!='0':
                   textarea.insert(END,f"Hair Spray\t\t\t{hairsprayEntry.get()}\t\t\t{hairsprayprice} Rs\n")
             if hairgelEntry.get()!='0':
                   textarea.insert(END,f"Hair Gel\t\t\t{hairgelEntry.get()}\t\t\t{hairgelprice} Rs\n")
             if bodyloationEntry.get()!='0':
                   textarea.insert(END,f"Body Lotion\t\t\t{bodyloationEntry.get()}\t\t\t{bodyloationprice} Rs\n")
-                                    
+            #================= Grocery Products =============#      
+            if riceEntry.get()!='0':
+                  textarea.insert(END,f"Rice\t\t\t{riceEntry.get()}\t\t\t{riceprice} Rs\n")
+            if daalEntry.get()!='0':
+                  textarea.insert(END,f"Daal\t\t\t{daalEntry.get()}\t\t\t{daalprice} Rs\n")
+            if oilEntry.get()!='0':
+                  textarea.insert(END,f"Oil\t\t\t{oilEntry.get()}\t\t\t{oilprice} Rs\n")
+            if wheatEntry.get()!='0':
+                  textarea.insert(END,f"Wheat\t\t\t{wheatEntry.get()}\t\t\t{wheatprice} Rs\n")
+            if sugarEntry.get()!='0':
+                  textarea.insert(END,f"Sugar\t\t\t{sugarEntry.get()}\t\t\t{sugarprice} Rs\n")
+            if teaEntry.get()!='0':
+                  textarea.insert(END,f"Tea\t\t\t{teaEntry.get()}\t\t\t{teaprice} Rs\n")
+            #================= Cold Drink Products =============#      
+            if maazaEntry.get()!='0':
+                  textarea.insert(END,f"Maaza\t\t\t{maazaEntry.get()}\t\t\t{maazaprice} Rs\n")
+            if frootiEntry.get()!='0':
+                  textarea.insert(END,f"Frooti\t\t\t{frootiEntry.get()}\t\t\t{frootiprice} Rs\n")
+            if dewEntry.get()!='0':
+                  textarea.insert(END,f"Dew\t\t\t{dewEntry.get()}\t\t\t{dewprice} Rs\n")
+            if pepsiEntry.get()!='0':                                                                              
+                  textarea.insert(END,f"Pepsi\t\t\t{pepsiEntry.get()}\t\t\t{pepsiprice} Rs\n")
+            if spriteEntry.get()!='0':
+                  textarea.insert(END,f"Sprite\t\t\t{spriteEntry.get()}\t\t\t{spriteprice} Rs\n")
+            if colaEntry.get()!='0':
+                  textarea.insert(END,f"Coca Cola\t\t\t{colaEntry.get()}\t\t\t{cococolaprice} Rs\n")            
                         
                 
       
-
 def total():
       global soapprice,facecreamprice,facewashprice,hairsprayprice,hairgelprice,bodyloationprice
+      global riceprice,daalprice,oilprice,sugarprice,teaprice,wheatprice
+      global maazaprice,frootiprice,dewprice,pepsiprice,spriteprice,cococolaprice
       # Calculate cosmetic price
       soapprice=int(bathsoapEntry.get()) * 20
       facecreamprice=int(facecreamEntry.get())*50
