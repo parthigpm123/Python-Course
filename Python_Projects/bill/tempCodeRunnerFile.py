@@ -172,7 +172,7 @@ grocerypriceEntry.grid(row=1,column=1,pady=6,padx=10)
 
 drinkspriceLabel=Label(billmenuFrame,text='Cold Drink Price',font=("times new roman",13,"bold"),bg="blue2",fg="white")
 drinkspriceLabel.grid(row=2,column=0,pady=6,padx=10,sticky='w')
-drinkspriceEntry=Entry(billmenuFrame,font=("times new roman",15,"bold"),width=10,bd=5)
+drinkspriceEntry=Entry(billmenuFrame,font=("times new roman",13,"bold"),width=10,bd=5)
 drinkspriceEntry.grid(row=2,column=1,pady=6,padx=10)
 
 #=====================cosmetic tax===========
@@ -188,7 +188,7 @@ grocerytaxEntry.grid(row=1,column=3,pady=6,padx=10)
 
 drinkstaxLabel=Label(billmenuFrame,text='Cold Drink Tax',font=("times new roman",13,"bold"),bg="blue2",fg="white")
 drinkstaxLabel.grid(row=2,column=2,pady=6,padx=10,sticky='w')
-drinkstaxEntry=Entry(billmenuFrame,font=("times new roman",15,"bold"),width=10,bd=5)
+drinkstaxEntry=Entry(billmenuFrame,font=("times new roman",13,"bold"),width=10,bd=5)
 drinkstaxEntry.grid(row=2,column=3,pady=6,padx=10)
 
 #================BUTTON FRAME==============
