@@ -9,10 +9,16 @@ Customer Phone Number : 1
 =======================================================
 Products			Qty			Price
 =======================================================
-Pepsi			01			55 Rs
+Bath Soap			01			20 Rs
+Rice			01			200 Rs
+Maaza			01			60 Rs
 -------------------------------------------------------
-Drinks Tax				4.4 Rs
+Cosmetic Tax				2.4 Rs
 
-Total Bill				59.4
+Grocery Tax				170.0 Rs
+
+Drinks Tax				4.8 Rs
+
+Total Bill				457.2
 =======================================================
 
