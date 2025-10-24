@@ -3,8 +3,6 @@ from tkinter import messagebox
 import os
 import smtplib
 import tempfile
-import win32api
-import win32print
 from tkinter import filedialog
 
 def clear():
