@@ -2,17 +2,38 @@
 
 Bill Number : 11
 
-Customer Name : 111
+Customer Name : 11
 
-Customer Phone Number : 111
+Customer Phone Number : 11
 
 =======================================================
 Products			Qty			Price
 =======================================================
-Daal			01			150 Rs
+Bath Soap			01			20 Rs
+Face Cream			011			550 Rs
+Face Wash			1			30 Rs
+Hair Spray			1			150 Rs
+Hair Gel			01			80 Rs
+Body Lotion			1			60 Rs
+Rice			01			200 Rs
+Daal			1			150 Rs
+Oil			01			100 Rs
+Wheat			1			180 Rs
+Sugar			1			90 Rs
+Tea			01			120 Rs
+Maaza			01			60 Rs
+Frooti			01			65 Rs
+Dew			01			50 Rs
+Pepsi			01			55 Rs
+Sprite			01			45 Rs
+Coca Cola			01			70 Rs
 -------------------------------------------------------
-Grocery Tax				127.5 Rs
+Cosmetic Tax				106.8 Rs
 
-Total Bill				277.5
+Grocery Tax				714.0 Rs
+
+Drinks Tax				27.6 Rs
+
+Total Bill				2923.4
 =======================================================
 

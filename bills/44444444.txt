@@ -1,0 +1,33 @@
+		***Welcome Customers***
+
+Bill Number : 44444444
+
+Customer Name : 44444
+
+Customer Phone Number : 4444444
+
+=======================================================
+Products			Qty			Price
+=======================================================
+Bath Soap			011			220 Rs
+Face Cream			01			50 Rs
+Face Wash			1			30 Rs
+Hair Spray			01			150 Rs
+Hair Gel			01			80 Rs
+Rice			01			200 Rs
+Daal			01			150 Rs
+Oil			01			100 Rs
+Maaza			011			660 Rs
+Dew			01			50 Rs
+Pepsi			011			605 Rs
+Sprite			011			495 Rs
+-------------------------------------------------------
+Cosmetic Tax				63.599999999999994 Rs
+
+Grocery Tax				382.5 Rs
+
+Drinks Tax				144.8 Rs
+
+Total Bill				3380.9
+=======================================================
+

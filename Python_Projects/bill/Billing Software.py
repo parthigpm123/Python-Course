@@ -7,6 +7,69 @@ import win32api
 import win32print
 from tkinter import filedialog
 
+def clear():
+      bathsoapEntry.delete(0,END)
+      facecreamEntry.delete(0,END)
+      hairgelEntry.delete(0,END)
+      hairsprayEntry.delete(0,END)
+      bodyloationEntry.delete(0,END)
+      facewashEntry.delete(0,END)
+      
+      daalEntry.delete(0,END)
+      wheatEntry.delete(0,END)
+      riceEntry.delete(0,END)
+      oilEntry.delete(0,END)
+      sugarEntry.delete(0,END)
+      teaEntry.delete(0,END)
+      
+      pepsiEntry.delete(0,END)
+      colaEntry.delete(0,END)
+      maazaEntry.delete(0,END)
+      dewEntry.delete(0,END)
+      spriteEntry.delete(0,END)
+      frootiEntry.delete(0,END)
+      
+      bathsoapEntry.insert(0,0)
+      facecreamEntry.insert(0,0)
+      hairgelEntry.insert(0,0)
+      hairsprayEntry.insert(0,0)
+      bodyloationEntry.insert(0,0)
+      facewashEntry.insert(0,0)
+      
+      daalEntry.insert(0,0)
+      wheatEntry.insert(0,0)
+      riceEntry.insert(0,0)
+      oilEntry.insert(0,0)
+      sugarEntry.insert(0,0)
+      teaEntry.insert(0,0)
+      
+      pepsiEntry.insert(0,0)
+      colaEntry.insert(0,0)
+      maazaEntry.insert(0,0)
+      dewEntry.insert(0,0)
+      spriteEntry.insert(0,0)
+      frootiEntry.insert(0,0)
+      
+      cosmetictaxEntry.delete(0,END)
+      grocerytaxEntry.delete(0,END)
+      drinkstaxEntry.delete(0,END)
+      
+      cosmeticpriceEntry.delete(0,END)
+      grocerypriceEntry.delete(0,END)
+      drinkspriceEntry.delete(0,END)
+      
+      nameEntry.delete(0,END)
+      phoneEntry.delete(0,END)
+      billnumberEntry.delete(0,END)
+      
+      
+      textarea.delete(1.0,END)
+      
+      
+      
+      
+      
+
 def send_email():
       def send_gmail():
             try:
@@ -16,14 +79,16 @@ def send_email():
                 message=email_textarea.get(1.0,END)
                 ob.sendmail(senderEntry.get(),recieverEntry.get(),message)
                 ob.quit()
-                messagebox.showinfo('Success','Email Sent Successfully')
+                messagebox.showinfo('Success','Email Sent Successfully',parent=root1)
+                root1.destroy()
             except:
-                  messagebox.showerror('Error','something went wrong please try again!')    
+                  messagebox.showerror('Error','something went wrong please try again!',parent=root1)    
             
       if textarea.get(1.0,END)=='\n':
              messagebox.showerror("Error","No Bill to Print")
       else:
             root1=Toplevel()
+            root1.grab_set()
             root1.title("Send Email")
             root1.config(bg="blue2")
             root1.resizable(0,0)    
@@ -500,6 +565,6 @@ emailButton.grid(row=0,column=2,pady=20,padx=5)
 printButton=Button(buttonFrame,text="Print",font=('arial',16,"bold"),bg="gold",fg="black",bd=5,width=8,pady=10,command=print_bill)
 printButton.grid(row=0,column=3,pady=20,padx=5)
 
-clearButton=Button(buttonFrame,text="Clear",font=('arial',16,"bold"),bg="gold",fg="black",bd=5,width=8,pady=10)
+clearButton=Button(buttonFrame,text="Clear",font=('arial',16,"bold"),bg="gold",fg="black",bd=5,width=8,pady=10,command=clear)
 clearButton.grid(row=0,column=4,pady=20,padx=5)
 root.mainloop() 
