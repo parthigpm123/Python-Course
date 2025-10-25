@@ -1,0 +1,25 @@
+		***Welcome Customers***
+
+Bill Number : 
+
+Customer Name : pRTHIBAN
+
+Customer Phone Number : 123
+
+=======================================================
+Products			Qty			Price
+=======================================================
+Bath Soap			0111			2220 Rs
+Rice			01			200 Rs
+Maaza			011			660 Rs
+Pepsi			01			55 Rs
+-------------------------------------------------------
+Cosmetic Tax				266.4 Rs
+
+Grocery Tax				170.0 Rs
+
+Drinks Tax				57.2 Rs
+
+Total Bill				3628.6
+=======================================================
+
