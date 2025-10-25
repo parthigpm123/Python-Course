@@ -15,9 +15,10 @@ try:
 except psycopg2.Error as e:
     print(f"Error connecting to the database: {e}")
     conn = None
-
+# CLASS FUNCTION
 class Student:
       def __init__(self,main):
+          #FRAME OF STUDENT MANAGEMENT
             self.main = main
             self.T_Frame = Frame(self.main,height=50, width=1200, background="yellow", bd=2, relief=GROOVE)
             self.T_Frame.pack()
@@ -102,7 +103,7 @@ class Student:
 
             self.tree.pack()
             
-       #Add function     
+       #Add function AND DATABASE   
       def Add(self):
           id = self.Id_Entry.get()            
           name = self.Name_Entry.get() 
