@@ -1,8 +1,11 @@
-from tkinter import *
-from tkinter import messagebox
-import os
+# REQUIREMENT LIBRARY FOR PROJECT
+
+from tkinter import *            #Tkinter Library
+from tkinter import messagebox    #Tkinter Messagebox Library
+import os                         #OS MODULE
 import smtplib
-from tkinter import filedialog
+from tkinter import filedialog   # For file dialog
+#==========================================#
 #=====CLEAR BUTTON FUNCTION======#
 def clear():
       #DELETE ALL ENTRY FIELDS
@@ -128,12 +131,12 @@ def send_email():
             sendbutton.grid(row=2,column=0,pady=20)
             
             
-            
+           #FUNCTION CALLING 
             root1.mainloop()
                
       
 
-
+# FUNCTION THROW ERROR
 # Function to calculate total (placeholder)
 
 # def print_bill():
@@ -153,6 +156,8 @@ def send_email():
 #             f.write(textarea.get(1.0, END))
 #         #os.startfile(file, "Print")
 #         os.startfile(file)  # Just open Notepad without print
+
+#PRINT BILL FUNCTION
 def print_bill():
     if textarea.get(1.0, END) == '\n':
         messagebox.showerror("Error", "No Bill to Print")
@@ -268,10 +273,9 @@ def bill_area():
             textarea.insert(END,"\n=======================================================\n")
             save_bill()
             
-                        
-                
-      
+# TOTAL BUTTON FUNCTION     
 def total():
+      #MAKE GLOBAL ENTRY FEILD
       global soapprice,facecreamprice,facewashprice,hairsprayprice,hairgelprice,bodyloationprice
       global riceprice,daalprice,oilprice,sugarprice,teaprice,wheatprice
       global maazaprice,frootiprice,dewprice,pepsiprice,spriteprice,cococolaprice
@@ -325,8 +329,10 @@ def total():
 
 root=Tk()
 
+#=========================== Main Window Setup ============================
 root.title("Retail Billing System")
 root.geometry("1270x685")
+
 #root.iconbitmap("icon.ico")
 
 headingLabel=Label(root,text="Retail Billing System",font=("times new roman",30,"bold"),bg="blue2",fg="gold",bd=12,relief=GROOVE)
