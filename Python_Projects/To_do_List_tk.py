@@ -29,7 +29,7 @@ def delete_task():
 # Create the main window
 root = tk.Tk()
 root.title("Colorful To-Do List")
-root.geometry("400x500")
+root.geometry("400x555")
 root.config(bg="#f0f8ff")
 
 tasks = []
