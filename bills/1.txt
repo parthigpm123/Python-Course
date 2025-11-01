@@ -2,17 +2,28 @@
 
 Bill Number : 1
 
-Customer Name : 1
+Customer Name : John
 
-Customer Phone Number : 1
+Customer Phone Number : 1234567891
 
 =======================================================
 Products			Qty			Price
 =======================================================
-Pepsi			01			55 Rs
+Bath Soap			1			20 Rs
+Face Cream			1			50 Rs
+Face Wash			5			150 Rs
+Hair Spray			7			1050 Rs
+Hair Gel			1			80 Rs
+Rice			3			600 Rs
+Oil			5			500 Rs
+Maaza			1			60 Rs
 -------------------------------------------------------
-Drinks Tax				4.4 Rs
+Cosmetic Tax				162.0 Rs
 
-Total Bill				59.4
+Grocery Tax				935.0 Rs
+
+Drinks Tax				4.8 Rs
+
+Total Bill				3611.8
 =======================================================
 
