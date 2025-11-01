@@ -6,7 +6,7 @@ split a string method
 # 1. Method 
 lst = "yellow orange red"
 
-result =lst.split()
+result =lst.split(" ")
 
 print(result)
 
@@ -14,5 +14,5 @@ print(result)
 
 lst1 ='apple,orange ,mango ,pineapple'
 
-res=lst1.split(",")
+res=lst1.split(',')
 print(res)

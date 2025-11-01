@@ -254,10 +254,12 @@ while True:
             print("Enter A integer value")       
             
 '''
+fruits = ['apple', 'banana', 'cherry', 'date']
 
-a=int(input("Enter value : "))
-b=int(in
-   
 
-for i in range(a or b,100):
-      print(i)
+fruits.reverse()
+print(fruits)
+
+my_list = [1, 2, 3, 4, 5]
+my_list.reverse()
+print(my_list)

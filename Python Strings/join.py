@@ -8,3 +8,7 @@ print(result)
 rest='@'.join(lst)
 
 print(rest)
+
+a=''
+reslt=a.join('abvvvvvvvvvvvv')
+print(reslt)
