@@ -254,12 +254,20 @@ while True:
             print("Enter A integer value")       
             
 '''
-fruits = ['apple', 'banana', 'cherry', 'date']
+#even or odd
+'''list1 = [1,2,3,4,5,6,7,8,9,0]
 
+for i in list1:
+      if(i%2==0):
+            print(i)'''
 
-fruits.reverse()
-print(fruits)
-
-my_list = [1, 2, 3, 4, 5]
-my_list.reverse()
-print(my_list)
+ 
+ #positive and negative numbers find
+ 
+n = [1,2,3,-1,-3,-6,-7,-9]           
+         
+for x in n:
+      if x>0:      
+            print(f'{x} is Positive Numbers')
+      elif x<0:
+            print(x,'is negative numbers')                           

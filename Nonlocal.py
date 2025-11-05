@@ -9,4 +9,3 @@ def outer():
       print(msg)
 outer()      
             
-            
