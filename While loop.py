@@ -16,12 +16,16 @@ while(i>0):
       i=i-1
 '''      
 
+#WHILE_LOOP
+i=1 #start value
+while i<=10: #end value
+      print(i)
+      i=i+1 #step value
+print('While Loop Completed')               
 
-count=1 # start value 
 
-while count<10: # end value 
-      
-      print(count,"hi")
-      count+=1 # Step Value
-      
+
+
+
+
       

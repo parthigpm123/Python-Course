@@ -1,6 +1,5 @@
+
 lst =["mango","banana","graphs","orange"]
- 
- 
  
  #method 1
 for i in range (len(lst)):

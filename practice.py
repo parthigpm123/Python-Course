@@ -254,20 +254,139 @@ while True:
             print("Enter A integer value")       
             
 '''
-#even or odd
-'''list1 = [1,2,3,4,5,6,7,8,9,0]
-
+'''#even or odd
+list1 = [1,2,3,4,5,6,7,8,9,0]
+even_number=[]
+ODD_numbers=[]
 for i in list1:
       if(i%2==0):
-            print(i)'''
-
+            even_number.append(i)
+      elif i%2==1:
+            ODD_numbers.append(i)
+print('EVEN_NUMBERS:',even_number,'\n','ODD_NUMBERS',ODD_numbers)                       
+'''
+    
+    
+    
+      
  
- #positive and negative numbers find
- 
+''' 
 n = [1,2,3,-1,-3,-6,-7,-9]           
          
 for x in n:
       if x>0:      
             print(f'{x} is Positive Numbers')
       elif x<0:
-            print(x,'is negative numbers')                           
+            print(x,'is negative numbers')
+'''  
+'''      
+# Match case statement
+number=int(input("Enter Number:"))  
+          
+match number:
+  case 1:
+    print("Monday")
+  case 2:
+    print("Tuesday")
+  case 3:
+    print("Wednesday")
+  case 4:
+    print("Thursday")
+  case 5:
+    print("Friday")
+  case 6:
+    print("Saturday")
+  case 7:
+    print("Sunday")
+'''
+'''#FOR_LOOP Condition
+list1 =[1,2,3,4,5,6,7,8,9,0,
+'Apple','Orange','Banana']
+
+#Iteration
+for i in list1:
+      print(i)
+'''
+'''
+i=10
+while i>0:
+      print(i,end='\n')
+      i=i-1
+      
+      
+      
+print('\n')      
+num=int(input("ENTER TABLE NUMBER: "))      
+i=1
+while i<=10:
+      print('\n',i,'x',num,'=',i*num,)
+      i=i+1      
+'''
+'''
+while True:
+ try:
+  table_num=int(input("ENTER TABLE NUMBER: " ))
+ 
+  for i in range(1,11):
+      print(i,'x',table_num,'=',i*2)
+ except:
+      print("Something error")
+ else:
+      print('successful completed success')       
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#If_Else_Statement
+
+a=10
+b=20
+
+if a>b:
+      print('a is greater than b')
+elif a<b:
+      print('a is smaller than b')
+else:
+      print('Both are equal')                
+                                
+                               
+                               
+                                
+x,n=2,2,2
+
+print(x,n)   
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
