@@ -334,47 +334,24 @@ while True:
  else:
       print('successful completed success')       
 '''
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#If_Else_Statement
-
-a=10
-b=20
-
-if a>b:
-      print('a is greater than b')
-elif a<b:
-      print('a is smaller than b')
-else:
-      print('Both are equal')                
-                                
-                               
-                               
-                                
-x,n=2,2,2
-
-print(x,n)   
+   
+   
+   
+                                      
+#BASIC CLASSES AND OBJECT                                
+class calculator():
+      def __init__(self,a,b):
+            self.a=a   
+            self.b=b
+      def cal(self):
+            self.a , self.b
+            print("Added Value=         ",self.a+self.b)
+            print("subtract value=      ",self.a-self.b)
+            print("multiplication value=",self.a*self.b)
+            print("division value=      ",self.a/self.b)
+      
+cal1=calculator(10,10)
+cal1.cal()                        
       
       
       
